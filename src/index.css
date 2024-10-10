@@ -5,9 +5,82 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(131, 115, 115, 0.528);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.background{
+  background-color: rgb(207, 206, 220);
+}
+
+.card{
+  padding-top: 20px;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  box-shadow: 1px 1px 4px ;
+  
+}
+.card-img-top{
+  margin-bottom: 15px;
+  margin-top: -20px;
+  width: 10px;
+  box-shadow: 0 0 10px rgb(35, 69, 100);
+  height: 200px;  
+  
+}
+.card-body{
+  width: 300px;
+  background: none;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top:25px;
+}
+.icon{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+span {
+  height: 30px;
+  width: 50px;
+  margin-bottom: 0px;
+}
+
+.fb {
+  width: 50px;
+  height: 40px;
+  color: blue;
+}
+
+.profilecard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 370px;
+  width: 100%;
+  padding: 57px;
+  
+}
+.insta{
+  width: 50px;
+  height: 45px;
+  color:rgb(181, 42, 88);
+}
+.linkedin{
+  width: 50px;
+  height: 44px;
+  color: rgb(32, 63, 136);
+}
+img{
+  border-radius: 10px;
+  margin-top: 20px;
 }
